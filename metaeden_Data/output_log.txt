@@ -1,0 +1,312 @@
+Initialize engine version: 4.1.5f1 (ed5ea3281df6)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.1090]
+    Renderer: NVIDIA GeForce GTX 570 
+    Vendor:   NVIDIA
+    VRAM:     1233 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\MetaEden.a14\metaeden_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading G:\MetaEden.a14\metaeden_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\MetaEden.a14\metaeden_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading G:\MetaEden.a14\metaeden_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading G:\MetaEden.a14\metaeden_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\CoherentUINet.dll (this message is harmless)
+Loading G:\MetaEden.a14\metaeden_Data\Managed\CoherentUINet.dll into Unity Child Domain
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\SmartFox2X.dll (this message is harmless)
+Loading G:\MetaEden.a14\metaeden_Data\Managed\SmartFox2X.dll into Unity Child Domain
+- Completed reload, in  0.049 seconds
+desktop: 2048x1152 60Hz; virtual: 3968x1152 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\Boo.Lang.dll (this message is harmless)
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\System.Core.dll (this message is harmless)
+Coherent UI system initialized..
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[Coherent UI] (Warning) PID: 8832 | 9124 20:57:36.547268 Shared textures are not properly supported on Windows 7 without Service Pack 1. Please install the latest service pack.
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Platform assembly: G:\MetaEden.a14\metaeden_Data\Managed\System.dll (this message is harmless)
+[Coherent UI] (Warning) PID: 8832 | 9124 20:57:36.673276 Requesting resource read for file:///C:/Users/Chris/AppData/LocalLow/DefaultCompany/MetaEden_a14/cookies.dat with internal id 0 reported FAIL
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+FetchTestURL called
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+GetWebData called
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - DEBUG] Writing message Binary Size: 35
+12 00 03 00 03 61 70 69 08 00 05 31 2e 32 2e 35 	.....api...1.2.5
+00 02 63 6c 08 00 05 55 6e 69 74 79 00 03 62 69 	..cl...Unity..bi
+6e 01 01                                        	n..             
+
+[SFS - INFO] Data written: Binary Size: 52
+12 00 03 00 01 63 02 00 00 01 61 03 00 00 00 01 	.....c....a.....
+70 12 00 03 00 03 61 70 69 08 00 05 31 2e 32 2e 	p.....api...1.2.
+35 00 02 63 6c 08 00 05 55 6e 69 74 79 00 03 62 	5..cl...Unity..b
+69 6e 01 01                                     	in..            
+
+[SFS DEBUG] Writing message Binary Size: 35
+12 00 03 00 03 61 70 69 08 00 05 31 2e 32 2e 35 	.....api...1.2.5
+00 02 63 6c 08 00 05 55 6e 69 74 79 00 03 62 69 	..cl...Unity..bi
+6e 01 01                                        	n..             
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Data written: Binary Size: 52
+12 00 03 00 01 63 02 00 00 01 61 03 00 00 00 01 	.....c....a.....
+70 12 00 03 00 03 61 70 69 08 00 05 31 2e 32 2e 	p.....api...1.2.
+35 00 02 63 6c 08 00 05 55 6e 69 74 79 00 03 62 	5..cl...Unity..b
+69 6e 01 01                                     	in..            
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - INFO] Data Read: Binary Size: 80
+80 00 4d 12 00 03 00 01 61 03 00 00 00 01 63 02 	..M.....a.....c.
+00 00 01 70 12 00 03 00 02 74 6b 08 00 20 34 66 	...p.....tk...4f
+62 65 62 37 39 64 32 36 32 37 37 30 33 39 63 39 	beb79d26277039c9
+33 64 63 64 64 34 63 37 62 35 64 62 35 37 00 02 	3dcdd4c7b5db57..
+63 74 04 00 00 04 00 00 02 6d 73 04 00 7a 12 00 	ct.......ms..z..
+
+[SFS - DEBUG] Handling New Packet of size 80
+[SFS - DEBUG] Handling Header Size. Length: 79 (small)
+[SFS - DEBUG] Data size is 77
+[SFS - DEBUG] Handling Data: 77, previous state: 0/77
+[SFS - DEBUG] <<< Packet Complete >>>
+[SFS DEBUG] Data Read: Binary Size: 80
+80 00 4d 12 00 03 00 01 61 03 00 00 00 01 63 02 	..M.....a.....c.
+00 00 01 70 12 00 03 00 02 74 6b 08 00 20 34 66 	...p.....tk...4f
+62 65 62 37 39 64 32 36 32 37 37 30 33 39 63 39 	beb79d26277039c9
+33 64 63 64 64 34 63 37 62 35 64 62 35 37 00 02 	3dcdd4c7b5db57..
+63 74 04 00 00 04 00 00 02 6d 73 04 00 7a 12 00 	ct.......ms..z..
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Handling New Packet of size 80
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Handling Header Size. Length: 79 (small)
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Data size is 77
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Handling Data: 77, previous state: 0/77
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - INFO] Message: Handshake { Message id: 0 }
+{ Dump: }
+
+	(utf_string) tk: 4fbeb79d26277039c93dcdd4c7b5db57
+	(int) ct: 1024
+	(int) ms: 8000000
+[SFS DEBUG] <<< Packet Complete >>>
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+
+[SFS - DEBUG] Handshake response: tk => 4fbeb79d26277039c93dcdd4c7b5db57, ct => 1024
+[SFS DEBUG] Message: Handshake { Message id: 0 }
+{ Dump: }
+
+	(utf_string) tk: 4fbeb79d26277039c93dcdd4c7b5db57
+	(int) ct: 1024
+	(int) ms: 8000000
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Handshake response: tk => 4fbeb79d26277039c93dcdd4c7b5db57, ct => 1024
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+On Connection callback got: True (error : <>)
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+You are connected!!!
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - DEBUG] Writing message Binary Size: 41
+12 00 03 00 02 7a 6e 08 00 0d 42 61 73 69 63 45 	.....zn...BasicE
+78 61 6d 70 6c 65 73 00 02 75 6e 08 00 04 64 65 	xamples..un...de
+6d 7a 00 02 70 77 08 00 00                      	mz..pw...       
+
+[SFS - INFO] Data written: Binary Size: 58
+12 00 03 00 01 63 02 00 00 01 61 03 00 01 00 01 	.....c....a.....
+70 12 00 03 00 02 7a 6e 08 00 0d 42 61 73 69 63 	p.....zn...Basic
+45 78 61 6d 70 6c 65 73 00 02 75 6e 08 00 04 64 	Examples..un...d
+65 6d 7a 00 02 70 77 08 00 00                   	emz..pw...      
+
+[SFS DEBUG] Writing message Binary Size: 41
+12 00 03 00 02 7a 6e 08 00 0d 42 61 73 69 63 45 	.....zn...BasicE
+78 61 6d 70 6c 65 73 00 02 75 6e 08 00 04 64 65 	xamples..un...de
+6d 7a 00 02 70 77 08 00 00                      	mz..pw...       
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Data written: Binary Size: 58
+12 00 03 00 01 63 02 00 00 01 61 03 00 01 00 01 	.....c....a.....
+70 12 00 03 00 02 7a 6e 08 00 0d 42 61 73 69 63 	p.....zn...Basic
+45 78 61 6d 70 6c 65 73 00 02 75 6e 08 00 04 64 	Examples..un...d
+65 6d 7a 00 02 70 77 08 00 00                   	emz..pw...      
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - INFO] Data Read: Binary Size: 129
+80 00 7e 12 00 03 00 01 61 03 00 01 00 01 63 02 	..~.....a.....c.
+00 00 01 70 12 00 06 00 02 72 6c 11 00 01 11 00 	...p.....rl.....
+09 04 00 00 00 00 08 00 09 54 68 65 20 4c 6f 62 	.........The.Lob
+62 79 08 00 07 64 65 66 61 75 6c 74 01 00 01 00 	by...default....
+01 00 03 00 00 03 00 96 11 00 00 00 02 7a 6e 08 	.............zn.
+00 0d 42 61 73 69 63 45 78 61 6d 70 6c 65 73 00 	..BasicExamples.
+02 72 73 03 00 00 00 02 75 6e 08 00 04 64 65 6d 	.rs.....un...dem
+7a 00 02 69 64 04 00 00 00 00 00 02 70 69 03 00 	z..id.......pi..
+00                                              	.               
+
+[SFS - DEBUG] Handling New Packet of size 129
+[SFS - DEBUG] Handling Header Size. Length: 128 (small)
+[SFS - DEBUG] Data size is 126
+[SFS - DEBUG] Handling Data: 126, previous state: 0/126
+[SFS - DEBUG] <<< Packet Complete >>>
+[SFS - INFO] Message: Login { Message id: 1 }
+{ Dump: }
+
+	(sfs_array) rl: 
+		(sfs_array) 
+			(int) 0
+			(utf_string) The Lobby
+			(utf_string) default
+			(bool) False
+			(bool) False
+			(bool) False
+			(short) 0
+			(short) 150
+			(sfs_array) 
+				
+			
+		
+	
+	(utf_string) zn: BasicExamples
+	(short) rs: 0
+	(utf_string) un: demz
+	(int) id: 0
+	(short) pi: 0
+
+[SFS DEBUG] Data Read: Binary Size: 129
+80 00 7e 12 00 03 00 01 61 03 00 01 00 01 63 02 	..~.....a.....c.
+00 00 01 70 12 00 06 00 02 72 6c 11 00 01 11 00 	...p.....rl.....
+09 04 00 00 00 00 08 00 09 54 68 65 20 4c 6f 62 	.........The.Lob
+62 79 08 00 07 64 65 66 61 75 6c 74 01 00 01 00 	by...default....
+01 00 03 00 00 03 00 96 11 00 00 00 02 7a 6e 08 	.............zn.
+00 0d 42 61 73 69 63 45 78 61 6d 70 6c 65 73 00 	..BasicExamples.
+02 72 73 03 00 00 00 02 75 6e 08 00 04 64 65 6d 	.rs.....un...dem
+7a 00 02 69 64 04 00 00 00 00 00 02 70 69 03 00 	z..id.......pi..
+00                                              	.               
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Handling New Packet of size 129
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Handling Header Size. Length: 128 (small)
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Data size is 126
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Handling Data: 126, previous state: 0/126
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] <<< Packet Complete >>>
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS DEBUG] Message: Login { Message id: 1 }
+{ Dump: }
+
+	(sfs_array) rl: 
+		(sfs_array) 
+			(int) 0
+			(utf_string) The Lobby
+			(utf_string) default
+			(bool) False
+			(bool) False
+			(bool) False
+			(short) 0
+			(short) 150
+			(sfs_array) 
+				
+			
+		
+	
+	(utf_string) zn: BasicExamples
+	(short) rs: 0
+	(utf_string) un: demz
+	(int) id: 0
+	(short) pi: 0
+
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+Login ok
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+test<br>wtf
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - DEBUG] UDP Init Attempt: 2
+[SFS DEBUG] UDP Init Attempt: 2
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - DEBUG] UDP Init Attempt: 3
+[SFS DEBUG] UDP Init Attempt: 3
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+UDP error: 
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+exit command
+ 
+(Filename: C:/BuildAgent/work/7535de4ca26c26ac/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 54)
+
+[SFS - ERROR] UDPSocketLayer: Error reading data from socket: A blocking operation was interrupted by a call to WSACancelBlockingCall.
+
+[SFS - WARN] Unexpected UDP I/O Error. Error reading data from socket: A blocking operation was interrupted by a call to WSACancelBlockingCall.
+ [Interrupted]
+[SFS - ERROR] TCPSocketLayer: General error reading data from socket: Read failure   at System.Net.Sockets.NetworkStream.Read (System.Byte[] buffer, Int32 offset, Int32 size) [0x00000] in <filename unknown>:0 
+  at Sfs2X.Core.Sockets.TCPSocketLayer.Read () [0x00000] in <filename unknown>:0 

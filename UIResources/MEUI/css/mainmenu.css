@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url("../fonts/TitilliumText25L/stylesheet.css");
+
+/* CSS Document */
+
+body {
+	font-family: "TitilliumText25L";
+	background-image:url(../img/perspective-grid-1.png);
+	background-position:center;
+	background-size:cover;
+}
+
+#menu {
+	position:absolute;
+	bottom:15%;
+	width:100%;
+	text-align:center;
+}
+
+#logo {
+	position:absolute;
+	top:15%;
+	width:100%;
+	text-align:center;
+}
+
+.menuHolder {
+	margin-top:10px;	
+	margin-bottom:10px;
+}
+
+#debugWindow {
+	background-color:rgba(0,0,0,.25);
+	height:300px;
+	margin-top:-350px;
+	border:1px solid rgba(0,255,255,.25);
+}
+
+#chatWindow {
+	background-color:rgba(0,0,0,.25);
+	height:400px;
+	border:1px solid rgba(0,255,255,.25);
+}
+
+#debugHeader {
+	background-color:#00FFFF;
+	color:#FFFFFF;
+	padding:5px;
+}
+
+#debugContent {
+	color:#00FFFF;
+	font-weight:100;
+	padding:5px;
+	font-size:14px;
+	line-height:14px;
+}
+
+#debugContent p {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+#debugCommands {
+	margin-top:2px;
+}
+
+#debugCommands input {
+	width:100%;
+	border:1px solid #00FFFF;
+	background-color:rgba(0,0,0,.15);
+	font-family: "TitilliumText25L";
+	font-weight:100;
+	color:#00FFFF;
+	padding:2px;
+	height:24px;
+}
+
+button.css3button {
+	width:200px;
+	font-family: "TitilliumText25L";
+	text-transform:uppercase;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#00e6ff 0%,
+		#65a4eb);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#00e6ff),
+		to(#65a4eb));
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #2964a3;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,0);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,0);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,0);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
+button.css3button:hover {
+	font-family: "TitilliumText25L";
+	text-transform:uppercase;
+	font-size: 18px;
+	color: #054f9e;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#00f2fa 0%,
+		#00bcfa);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#00f2fa),
+		to(#00bcfa));
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #2964a3;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,0);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,0);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 3px rgba(255,255,255,0);
+	text-shadow:
+		0px -1px 0px rgba(250,250,250,0.2),
+		0px 1px 0px rgba(0,0,0,1);
+}

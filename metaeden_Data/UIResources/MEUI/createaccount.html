@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Coherent UI Demo - menu</title>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/memenu.css" type="text/css" media="screen" />
+	<link rel='stylesheet' href='css/fonts.css' type='text/css'>
+    <!-- js -->
+    <script type="text/javascript" src="js/jquery/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="js/backbone/backbone-min.js"></script>
+
+	<script type="text/javascript" src="js/coherent.js"></script>
+	
+	<script type="text/javascript">
+	var fadeTime = 2000;
+	
+	$(document).ready(function() {
+		$('#menuConnect').on('click', function(){
+			engine.call("MenuConnect");
+		});
+		
+		$('#menuExit').on('click', function(){
+			engine.call("MenuExit");
+		});
+		
+		engine.on('LogConnectMessage', function(){
+			$('#debugWindow').animate({marginTop:'0px'},500);
+			$('#debugContent').append('<p>Connection in progress...</p>');
+			$('#menuConnect').off();
+		});
+		
+		engine.on('DebugConsoleOutput', function(msg){
+			$('#debugContent').append('<p>'+ msg +'</p>');
+			$('#debugContent').append('<p>wtffffff</p>');
+		});
+		
+	});                                   
+	</script> 
+</head>
+<body>
+	<div id="debugWindow">
+   	  <div id="debugHeader">Debug Window</div>
+      <div id="debugContent">
+        	<p>Debug window initialized.</p>
+            <p>Ready for commands...</p>
+      </div>
+    </div>
+    	<div id="debugCommands"><input name="debugCommandInput" type="text"></div>
+	<div id="menu">
+		<div class="menuHolder">
+        	<button type="button" name="menuConnect" id="menuConnect" value="" class="css3button">Connect</button>
+		</div>
+        <div class="menuHolder">
+        	<button type="button" name="menuExit" id="menuExit" value="" class="css3button">Exit</button>
+        </div>
+	</div>
+</body>
+</html>

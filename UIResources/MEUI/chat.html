@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>MetaEden.a14 - Main Menu</title>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/chat.css" type="text/css" media="screen" />
+	<link rel='stylesheet' href='css/mefonts.css' type='text/css'>
+    <!-- js -->
+    <script type="text/javascript" src="js/vendor/jquery-2.0.2.min.js"></script>
+
+	<script type="text/javascript" src="js/coherent.js"></script>
+	
+	<script type="text/javascript">
+	
+	$(document).ready(function() {
+		$('#menuConnect').on('click', function(){
+			engine.call("MenuConnect");
+		});
+		
+		$('#menuExit').on('click', function(){
+			engine.call("MenuExit");
+		});
+		
+		$('#chatInput').on('keyup', function(e){
+			if(e.keyCode == 13){
+				var sendMsg = $(this).val();
+				engine.call("ChatMessageEntry", sendMsg);
+				//alert(sendMsg);
+				$(this).val('');
+			}
+		});
+		
+		
+		engine.on('PostChatMessage', function(msg) {
+			$("#messages").append('<p>'+msg+'</p>');
+		});
+		
+		
+		
+		engine.on('DisableConnect', function(){
+			$("menuConnect").attr("disabled", true);			
+			$('#menuConnect').off();
+		});
+		
+		engine.on('EnableConnect', function(){
+			$("menuConnect").removeAttr("disabled");
+			
+			$('#menuConnect').on('click', function(){
+				engine.call("MenuConnect");
+			});
+		});
+		
+	});                                   
+	</script> 
+</head>
+<body>
+	<div id="logo">
+    	<img src="img/metaedenLogo.png" />
+	</div>
+
+	<div id="chat">
+    	<div id="messages">
+        	<p>blehblehcblehc</p>
+            <p>blehblehcblehc</p>
+            <p>blehblehcblehc</p>
+        </div>
+        <div id="users">
+        	<ul>
+            	<li>david</li>
+                <li>marcus</li>
+            </ul>
+        </div>
+        <div id="chatInputBox">
+    		<input name="chatInput" id="chatInput" type="text">
+	    </div>
+	</div>
+    
+</body>
+</html>

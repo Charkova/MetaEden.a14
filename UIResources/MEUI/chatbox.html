@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>MetaEden.a14 - Main Menu</title>
+    
+    <link rel="stylesheet" href="css/chatbox.css" type="text/css" media="screen" />
+    
+    <script type="text/javascript" src="js/vendor/jquery-2.0.2.min.js"></script>
+
+	<script type="text/javascript" src="js/coherent.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#menuConnect').on('click', function(){
+				engine.call("MenuConnect");
+			});
+			
+			$('#chatInputMsg1').on('keyup', function(e){
+				if(e.keyCode == 13){
+					var sendMsg = $(this).val();
+					engine.call("ChatMessageEntry", sendMsg);
+					//alert(sendMsg);
+					$(this).val('');
+				}
+			});
+			
+			engine.on('PostChatMessage', function(msg) {
+				var fullMsg = "> " + msg.user + ": " + msg.content;
+				$("#messages").append('<p>'+fullMsg+'</p>');
+			});		
+						
+		});                                   
+	</script> 
+</head>
+<body>
+	<table class="chatWrapper" cellpadding="0" cellspacing="0">
+		<tr>
+	    	<td width="20" class="chatAnchor"></td>
+	        <td width="*">
+	       	  <div class="chatActions">
+	            	<select name="chatChannel" class="chatChannel" id="chatChannel1">
+	            	  <option value="Global" selected>Global</option>
+	            	  <option value="Local">Local</option>
+	            	  <option value="Loopback">Loopback</option>
+	           	  </select>
+	              <input name="chatInputMsg" class="chatInputMsg" id="chatInputMsg1" type="text" value="enter message">
+	          </div>
+	          <div class="chatBox">
+	          	<div class="tabWrapper">
+	            	<div class="tabs">General</div>
+	            </div>
+	            <div class="messages">
+                <p>SDSADASDSADASD</p>
+                <p>SDSADASDSADASD</p>
+                <p>SDSADASDSADASD</p>
+                <p>SDSADASDSADASD</p>
+                </div>
+	          </div>   
+	        </td>
+	        <td width="25" class="chatSettings"><div class="chatPreferences"></div></td>
+	    </tr>
+	</table>
+</body>
+</html>

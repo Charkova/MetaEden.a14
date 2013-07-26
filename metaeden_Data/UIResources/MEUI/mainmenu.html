@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>MetaEden.a14 - Main Menu</title>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/mainmenu.css" type="text/css" media="screen" />
+	<link rel='stylesheet' href='css/mefonts.css' type='text/css'>
+    <!-- js -->
+    <script type="text/javascript" src="js/vendor/jquery-2.0.2.min.js"></script>
+
+	<script type="text/javascript" src="js/coherent.js"></script>
+	
+	<script type="text/javascript">
+	
+	$(document).ready(function() {
+		$('#menuConnect').on('click', function(){
+			engine.call("MenuConnect");
+		});
+		
+		$('#menuExit').on('click', function(){
+			engine.call("MenuExit");
+		});
+		
+		engine.on('DisableConnect', function(){
+			$("menuConnect").attr("disabled", true);			
+			$('#menuConnect').off();
+		});
+		
+		engine.on('EnableConnect', function(){
+			$("menuConnect").removeAttr("disabled");
+			
+			$('#menuConnect').on('click', function(){
+				engine.call("MenuConnect");
+			});
+		});
+		
+	});                                   
+	</script> 
+</head>
+<body>
+	<div id="logo">
+    	<img src="img/metaedenLogo.png" />
+	</div>
+
+	<div id="menu">
+		<div class="menuHolder">
+        	<button type="button" name="menuConnect" id="menuConnect" value="" class="css3button">Connect</button>
+		</div>
+        <div class="menuHolder">
+        	<button type="button" name="menuExit" id="menuExit" value="" class="css3button">Exit</button>
+        </div>
+	</div>
+</body>
+</html>
